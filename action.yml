@@ -1,0 +1,14 @@
+name: 'APPMAKERS King Of Anti Viruses'
+description: 'A simpe but easy anti virus'
+author: 'AppMakers Team'
+inputs:
+  repo-token:
+    description: {{ secrets.GITHUB_TOKEN }}
+    required: true
+  issue-message:
+    description: 'issue'
+  pr-message:
+    description: 'pull request'
+runs:
+  using: 'exe'
+  image: 'king_of_anti_viruses.py' 
