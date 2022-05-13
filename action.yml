@@ -1,8 +1,9 @@
 name: 'APPMAKERS King Of Anti Viruses'
 description: 'A simpe but easy anti virus'
 author: 'AppMakers Team'
-Icon: check-circle
-color: 'purple'
+branding:
+  icon: 'check-circle'
+  color: 'purple'
 inputs:
   repo-token:
     description: {{ secrets.GITHUB_TOKEN }}
